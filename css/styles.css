@@ -265,6 +265,7 @@ html {
   gap: 48px;
   min-width: 360px;
   max-width: 1032px;
+  margin: 0 auto;
 }
 .cta-wrapper {
   display: flex;
@@ -321,6 +322,35 @@ html {
 }
 .cta-form-field:focus {
   box-shadow: 0px 0px 1px 4px #807ef2;
+}
+.submit-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+
+  width: 100%;
+  /* background/button */
+  background: linear-gradient(
+    80.23deg,
+    #e8652d -4.25%,
+    #e82dd2 28.23%,
+    #a650ff 69.35%,
+    #009dff 116.49%
+  );
+  border-radius: 16px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  color: #ffffff;
+
+  transition: 200ms ease-in;
 }
 
 /* Footer section */
